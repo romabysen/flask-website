@@ -535,6 +535,13 @@ extensions = [
         github='singingwolfboy/flask-misaka',
         approved=True,
     ),
+    Extension('Flask-EnvConfig', 'Lars Hansson',
+        description='''
+            <p>Configure Flask from environment variables.
+        ''',
+        bitbucket='romabysen/flask-envconfig',
+        approved=False
+    ),
 ]
 
 
